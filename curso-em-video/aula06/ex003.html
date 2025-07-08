@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu primeiro programa js</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        body {
+            background-color: rgb(130, 197, 219);
+            color: white;
+            font-size: 1em;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+    </style>
+</head>
+<body>
+    <h1>Olá mundo!</h1>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. <br> Debitis distinctio rem ad quae! Suscipit dicta, aspernatur <br>non est voluptates illum expedita ut, officiis necessitatibus <br> distinctio excepturi soluta officia temporibus ipsam!</p> 
+
+
+    <script > 
+       var n1 = Number(window.prompt('Digite um numero:')) // prompt recebe valor string
+       var n2 = Number(window.prompt('Digite outro numero:')) // string
+       var s = n1 + n2
+       window.alert( `A soma entre ${n1} e ${n2} é igual a ${s} ` ) // usando template string ` ${} ` - NÃO ESQUEÇA DAS CRASES  ` ` 
+    </script>
+</body>
+</html>
+
+
+<!-- 
+
+Number(n) faz com que o js descubra se é float ou inter
+
+Number.parseInt força dizer ser um numero Inteiro
+Number.parseFloat força dizer ser numero Real
+
+String(n) transforma valor numérico para string e
+
+n.toString() também
+ 
+Pode usar + que faz concatenação com valores
+ou usar ` ${n} ` para ficar mais limpo quando tiver muita informação
+
+-->
