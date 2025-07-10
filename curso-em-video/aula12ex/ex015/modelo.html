@@ -13,19 +13,21 @@
     <section>
         <div>
             <p>Anos de nacimento:
-                <input type="number" name="txtano" id="" min="0" max="2030">
+                <input type="number" name="txtano" id="txtano" min="0">
             </p>
             <p>Sexo:
-                <input type="radio" name="radx" id="masc" checked>
+                <input type="radio" name="radsex" id="mas" checked>
                 <label for="masc">Masculino</label>
-                <input type="radio" name="radx" id="fem">
+                <input type="radio" name="radsex" id="fem">
                 <label for="fem">Feminino</label>
+            </p>
+            <p>
+                <input type="button" value="Verificar" onclick="verificar()">
             </p>
         </div>
         <div id="res"> 
-            olá...
+            Preencha dos dados acima para ver o resultado
         </div>
-        <img id="imagem" src="adulta.jpg" alt="Foto mulher velha">
     </section>
     <footer>
         <p>&copy; CursoemVideo</p>
