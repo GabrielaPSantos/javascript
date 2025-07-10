@@ -6,3 +6,4 @@ while (c <= 6) {
 
 
 // estrutura de repetição com teste lógico no inicio
+// mais encontrada nos programas
