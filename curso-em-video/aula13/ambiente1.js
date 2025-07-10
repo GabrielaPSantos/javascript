@@ -6,4 +6,4 @@ do  {
 
 
 
-// estrutura de repetição com teste lógico no final
+// estrutura de repetição com teste lógico no final.
