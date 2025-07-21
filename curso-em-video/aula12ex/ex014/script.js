@@ -19,4 +19,4 @@ function carregar() {
         img.src = 'imagens/noite.jpg'
         document.body.style.background = '#262657'
     }
-}
+} 

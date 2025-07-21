@@ -16,7 +16,7 @@ function inLista(n, l) {
         return true
     } else {
         return false
-    }
+    }   
 }
 
 function adicionar() {

@@ -1,0 +1,60 @@
+@charset "UTF-8" ;
+
+@import url('https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400..700;1,400..700&family=Handlee&display=swap');
+
+:root {
+    --letra: "Handlee", cursive;
+}
+
+body{
+    background-color: rgba(144, 218, 144, 0.418);
+    font-family: var(--letra)
+}
+
+
+header {
+    height: 100px;
+}
+
+
+h1 {
+    color: rgb(204, 72, 94);
+}
+
+a {
+    color: white;
+    background-color: grey;
+    text-decoration: none;
+    border-radius: 10px;
+    padding: 6px;
+}
+
+a:hover {
+    color: rgb(141, 138, 138);
+    color: green;
+   
+}
+
+h1 {
+    text-align: center;
+}
+
+ p {
+    text-align: center;
+    text-align: justify;
+    font-size: 20px;
+}
+
+div > img {
+    text-align: center;
+}
+
+main {
+    margin: auto;
+    width: 1200px;
+    background-color: rgba(144, 218, 144, 0.192);
+}
+
+#imgm {
+    margin: auto;
+}
