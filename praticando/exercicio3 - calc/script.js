@@ -14,12 +14,18 @@ function limparTudo() {  // botão C
 
 function voltar() {   // botão <
     const display = document.querySelector('#calc')
+    if(display.value == 'Error') {
+        display.value = ''
+    } else {
     display.value = display.value.slice(0, -1)  // slice apaga o ultimo valor
+    }
 }
 
 function resultado() {  // botão =
     const display = document.querySelector('#calc')
     if (display.value == 0){
+        display.value = ''
+    } else if (display.value == 'Error'){
         display.value = 'Error'
     } else {
     try {

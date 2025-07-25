@@ -15,6 +15,6 @@ function contarVogal(palavra) {
     function mostrarResultado() {
       const entrada = document.getElementById("entrada").value;
       const resultado = contarVogal(entrada);
-      document.getElementById("resultado").innerText =
-        `A palavra "${entrada}" tem ${resultado} vogais.`;
+      document.getElementById("res").innerHTML =
+        `<p>A palavra "${entrada}" tem ${resultado} vogais.</p>`;
     }

@@ -9,9 +9,9 @@ function verificarParOuImpar() {
     } else {
         let resultado = num.value % 2
         if (resultado == 0 ) {
-            parag.innerHTML = `O número ${num.value} é Par. `
+            parag.innerText = `O número ${num.value} é Par. `
         } else {
-            parag.innerHTML = `O número ${num.value} é Impar. `
+            parag.innerText = `O número ${num.value} é Impar. `
         }
     }
 }
