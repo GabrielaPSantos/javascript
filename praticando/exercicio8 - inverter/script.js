@@ -24,8 +24,6 @@ function inverterString(str) {
 }
 
 
-
-
  Exemplo:
 
 let original = "Olá, JavaScript!";
